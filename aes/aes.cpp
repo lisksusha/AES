@@ -6,30 +6,7 @@
 #include <cassert>
 #include "aes.h"  //dependecy
 using namespace std;
-/*
- *  Task 1 : Read the message & key from the file \
- *           Store it in array.
- *
- *  Task 2 : Convert ASCII array to hexadecimal 
- *
- *  Task 3 : Generate keys for all rounds 
- *
- *  Task 4 : Perform encryption
- *           - ByteSub Transformation
- *           - Shift Rows
- *           - Mix Cloumns 
- *           - Add Round Key
- *
- * Task 5 : Perform decryption 
- *          - Inverse ByteSub Transformation
- *          - Inverse Shift Rows
- *          - Inverse Mix Cloumns 
- *          - Add Round Key
- *
- *  Author : Tushar Sharma <tushar.sharma1729@gmail.com> 
- *  Last Modified  : Oct 26, 2015 
- *  Status : OK
-*/
+
 
 void error_dsp(string msg) 
 {
